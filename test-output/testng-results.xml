@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="EBANKING" duration-ms="23328" started-at="2021-05-17T19:53:53 IST" finished-at="2021-05-17T19:54:16 IST">
+    <groups>
+    </groups>
+    <test name="Banking app test" duration-ms="23328" started-at="2021-05-17T19:53:53 IST" finished-at="2021-05-17T19:54:16 IST">
+      <class name="com.EBANKING.testcase.TC_Addcustomerpage_003">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.EBANKING.testcase.TC_Addcustomerpage_003@4524411f]" name="setup" is-config="true" duration-ms="9131" started-at="2021-05-17T19:53:53 IST" finished-at="2021-05-17T19:54:03 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="Addnewcustomer()[pri:0, instance:com.EBANKING.testcase.TC_Addcustomerpage_003@4524411f]" name="Addnewcustomer" duration-ms="12811" started-at="2021-05-17T19:54:03 IST" finished-at="2021-05-17T19:54:15 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Addnewcustomer -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.EBANKING.testcase.TC_Addcustomerpage_003@4524411f]" name="teardown" is-config="true" duration-ms="897" started-at="2021-05-17T19:54:15 IST" finished-at="2021-05-17T19:54:16 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.EBANKING.testcase.TC_Addcustomerpage_003 -->
+    </test> <!-- Banking app test -->
+  </suite> <!-- EBANKING -->
+</testng-results>

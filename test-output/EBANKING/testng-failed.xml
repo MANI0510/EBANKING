@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [EBANKING]">
+  <listeners>
+    <listener class-name="com.EBANKING.utilities.Reporting"/>
+  </listeners>
+  <test thread-count="5" name="Banking app test(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.EBANKING.testcase.TC_Logintest_001">
+        <methods>
+          <include name="setup"/>
+          <include name="teardown"/>
+          <include name="LoginTest"/>
+        </methods>
+      </class> <!-- com.EBANKING.testcase.TC_Logintest_001 -->
+      <class name="com.EBANKING.testcase.TC_Addcustomerpage_003">
+        <methods>
+          <include name="setup"/>
+          <include name="Addnewcustomer"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- com.EBANKING.testcase.TC_Addcustomerpage_003 -->
+    </classes>
+  </test> <!-- Banking app test(failed) -->
+</suite> <!-- Failed suite [EBANKING] -->
